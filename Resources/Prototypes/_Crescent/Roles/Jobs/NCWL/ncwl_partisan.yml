@@ -15,10 +15,6 @@
       factionID: "NCWL"
     - !type:CharacterOverallTimeRequirement
       min: 10800
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-        - Voidborn
     - !type:CharacterTraitRequirement
       inverted: true
       traits:

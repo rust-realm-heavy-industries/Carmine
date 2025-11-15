@@ -55,8 +55,6 @@
 
 - type: startingGear
   id: BlueshieldOfficerGear
-  subGear:
-  - BlueshieldPlasmamanGear
   equipment:
     back: ClothingBackpackBlueshield
     jumpsuit: ClothingUniformJumpsuitBlueshieldOfficer
@@ -73,11 +71,3 @@
     #belt: ClothingBeltSecurityFilled
     #pocket1: WeaponPistolMk58
     #pocket2: DeathAcidifierImplanter
-
-- type: startingGear
-  id: BlueshieldPlasmamanGear
-  parent: BasePlasmamanGear
-  equipment:
-    jumpsuit: ClothingUniformEnvirosuitBlueshield
-    head: ClothingHeadEnvirohelmBlueshield
-    gloves: ClothingHandsGlovesEnviroglovesBlack

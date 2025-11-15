@@ -11,10 +11,6 @@
   supervisors: job-supervisors-ath
   canBeAntag: false
   requirements:
-    - !type:CharacterSpeciesRequirement
-      species:
-        - Human
-        - Oni
     - !type:FactionRequirement
       factionID: "ATH"
   special:

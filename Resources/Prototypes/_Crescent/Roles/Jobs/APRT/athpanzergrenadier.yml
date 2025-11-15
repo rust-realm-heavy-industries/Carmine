@@ -4,11 +4,6 @@
   description: job-description-soldat
   playTimeTracker: JobSoldatATH
   requirements:
-    - !type:CharacterSpeciesRequirement
-      species:
-        - Human
-        - Reptilian
-        - Oni
     - !type:FactionRequirement
       factionID: "ATH"
   weight: 80

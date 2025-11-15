@@ -2,12 +2,6 @@
   id: UltraVision
   category: Visual
   requirements:
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-        - Vulpkanin
-        - Harpy
-        - Voidborn
     - !type:CharacterTraitRequirement
       inverted: true
       traits:
@@ -21,12 +15,6 @@
   id: DogVision
   category: Visual
   requirements:
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-        - Vulpkanin
-        - Harpy
-        - Voidborn
     - !type:CharacterTraitRequirement
       inverted: true
       traits:

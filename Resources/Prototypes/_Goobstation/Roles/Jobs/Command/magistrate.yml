@@ -46,8 +46,6 @@
 
 - type: startingGear
   id: MagistrateGear
-  subGear:
-  - MagistratePlasmamanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitMagistrate
     shoes: ClothingShoesLeather
@@ -55,11 +53,3 @@
     id: CentcomPDA
     ears: ClothingHeadsetMagistrate
     pocket1: UniqueMagistrateLockerTeleporter
-
-- type: startingGear
-  id: MagistratePlasmamanGear
-  parent: BasePlasmamanGear
-  equipment:
-    jumpsuit: ClothingUniformEnvirosuitMagistrate
-    head: ClothingHeadEnvirohelmMagistrate
-    gloves: ClothingHandsGlovesEnviroglovesWhite

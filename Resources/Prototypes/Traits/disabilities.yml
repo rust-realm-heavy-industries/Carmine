@@ -49,10 +49,6 @@
       jobs:
         - Borg
         - MedicalBorg
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-        - IPC
   functions:
     - !type:TraitAddComponent
       components:
@@ -118,10 +114,6 @@
       inverted: true
       lifepaths:
         - Clone
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-        - IPC
   functions:
     - !type:TraitAddComponent
       components:
@@ -138,10 +130,6 @@
       jobs:
         - Borg
         - MedicalBorg
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-        - IPC
     - !type:CharacterItemGroupRequirement
       group: TraitsAccents
   functions:
@@ -158,10 +146,6 @@
       jobs:
         - Borg
         - MedicalBorg
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-        - IPC
   functions:
     - !type:TraitAddComponent
       components:
@@ -176,10 +160,6 @@
       inverted: true
       traits:
         - ParkourTraining
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-        - Diona
   functions:
     - !type:TraitAddComponent
       components:
@@ -202,10 +182,6 @@
         - ParkourTraining
         - SnailPaced
         - WheelchairBound
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-        - Diona
   functions:
     - !type:TraitAddComponent
       components:
@@ -225,10 +201,6 @@
         - ParkourTraining
         - Sluggish
         - WheelchairBound
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-        - Diona
   functions:
     - !type:TraitAddComponent
       components:
@@ -247,12 +219,6 @@
       jobs:
         - Borg
         - MedicalBorg
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-        - IPC
-        - Lamia
-        - Plasmaman
     - !type:CharacterTraitRequirement
       inverted: true
       traits:
@@ -273,12 +239,6 @@
       jobs:
         - Borg
         - MedicalBorg
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-        - IPC
-        - Lamia
-        - Plasmaman
   functions:
     - !type:TraitAddComponent
       components:
@@ -293,11 +253,6 @@
   category: Visual
   points: 1
   requirements:
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-        - Vulpkanin # This trait functions exactly as-is for the Vulpkanin trait.
-        - Voidborn
     - !type:CharacterTraitRequirement
       inverted: true
       traits:

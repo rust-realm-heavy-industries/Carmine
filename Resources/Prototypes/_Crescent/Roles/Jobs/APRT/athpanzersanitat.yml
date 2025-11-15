@@ -4,11 +4,6 @@
   description: job-description-sanitat
   playTimeTracker: JobSanitatATH
   requirements:
-    - !type:CharacterSpeciesRequirement
-      species:
-        - Human
-        - Reptilian
-        - Oni
     - !type:FactionRequirement
       factionID: "ATH"
   weight: 81

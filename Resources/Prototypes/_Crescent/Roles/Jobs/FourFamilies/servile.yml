@@ -13,10 +13,6 @@
   requirements:
     - !type:FactionRequirement
       factionID: "TAP"
-    - !type:CharacterSpeciesRequirement
-      species:
-        - Human
-        - Reptilian
     - !type:CharacterTraitRequirement
       inverted: true
       traits:

@@ -1063,10 +1063,6 @@
     Telecrystal: 20
   categories:
     - UplinkDeception
-  conditions:
-  - !type:BuyerSpeciesCondition
-    blacklist:
-    - Plasmaman
 
 - type: listing
   id: UplinkBribePlasmaman
@@ -1080,10 +1076,6 @@
     Telecrystal: 20
   categories:
     - UplinkDeception
-  conditions:
-  - !type:BuyerSpeciesCondition
-    whitelist:
-    - Plasmaman
 
 # - type: listing
 #   id: UplinkGigacancerScanner

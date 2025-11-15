@@ -339,12 +339,6 @@
 #        orGroup: Box
       - id: BoxBuildABuddyHuman
         orGroup: Box
-      - id: BoxBuildABuddyReptilian
-        orGroup: Box
-      - id: BoxBuildABuddySlime
-        orGroup: Box
-      - id: BoxBuildABuddyVulpkanin
-        orGroup: Box
       - id: DrinkSpaceGlue
       - id: PaperMailNFBuildABuddy
 

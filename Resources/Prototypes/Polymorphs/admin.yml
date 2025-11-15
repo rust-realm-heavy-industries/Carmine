@@ -1,7 +1,7 @@
 ﻿- type: polymorph
   id: AdminLizardSmite
   configuration:
-    entity: MobReptilian
+    entity: MobMonkey
     forced: true
     transferName: true
     transferHumanoidAppearance: true

@@ -25,8 +25,6 @@
 
 - type: startingGear
   id: PrisonGuardGear
-  subGear:
-  - PrisonGuardPlasmamanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitPrisonGuard
     back: ClothingBackpackSecurityFilled
@@ -39,11 +37,3 @@
   innerClothingSkirt: ClothingUniformJumpsuitPrisonGuard
   satchel: ClothingBackpackSatchelSecurityFilled
   duffelbag: ClothingBackpackDuffelSecurityFilled
-
-- type: startingGear
-  id: PrisonGuardPlasmamanGear
-  parent: BasePlasmamanSecurityGear
-  equipment:
-    jumpsuit: ClothingUniformEnvirosuitPrisonGuard
-    head: ClothingHeadEnvirohelmPrisonGuard
-    gloves: ClothingHandsGlovesEnviroglovesBlack
