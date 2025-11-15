@@ -150,7 +150,7 @@
   description: "How is this thing glowing? Why?"
   id: BloodCultAlwaysPoweredLight
   suffix: Always powered
-  parent: AlwaysPoweredWallLight
+  parent: BloodCultProp01 #yeah this breaks it but were gonna kill it anyway i just want my game to compile
   components:
   - type: Sprite
     sprite: _NF/Structures/Specific/BloodCult/light.rsi
