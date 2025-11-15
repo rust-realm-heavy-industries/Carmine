@@ -22,7 +22,6 @@
     anchored: true
   - type: Clickable
   - type: InteractionOutline
-  - type: EtherealLight
   - type: Damageable
     damageContainer: Inorganic
     damageModifierSet: Metallic
@@ -63,11 +62,6 @@
   parent: BaseLightFixture
   abstract: true
   components:
-  - type: PoweredLight
-    bulb: Bulb
-    damage:
-      types:
-        Heat: 2
   - type: ContainerContainer
     containers:
       light_bulb: !type:ContainerSlot
@@ -98,7 +92,7 @@
   name: small light
   description: "An always powered light."
   id: SmallLightFixturePowered
-  suffix: Always Powered
+  suffix: Always Powered, Carmine
   parent: BaseLightFixture
   components:
   - type: Sprite
@@ -124,18 +118,35 @@
   name: small light
   description: "A light fixture. Draws power and produces light when equipped with a light bulb."
   id: SmallLightFixtureEmpty
-  suffix: Empty
+  suffix: Empty, Carmine
   parent: [ BasePoweredLightFixture, SmallLightFixturePowered ]
   components:
+  - type: PoweredLight #it breaks if you dont specify damage
+    bulb: Bulb
+    damage:
+      types:
+        Heat: 2
   - type: Construction
     graph: LightFixture
     node: bulbLight
       
 - type: entity
+  id: SmallLightFixture
+  suffix: Carmine
+  parent: SmallLightFixtureEmpty
+  components:
+  - type: PoweredLight
+    hasLampOnSpawn: LightBulb
+    bulb: Bulb
+    damage:
+      types:
+        Heat: 2     
+       
+- type: entity
   name: light tube
   description: "An always powered light tube."
   id: LightTubeFixturePowered
-  suffix: Always Powered
+  suffix: Always Powered, Carmine
   parent: BaseLightFixture
   components:
   - type: Sprite
@@ -150,9 +161,9 @@
       state: glow
       shader: unshaded
   - type: PointLight
-    color: "#FFCEA6" # 4000K color temp
+    color: "#FFC99D" # 3800K color temp
     energy: 0.5
-    radius: 5
+    radius: 7
     softness: 1.1
     offset: "0, -1"
     enabled: true
@@ -161,9 +172,26 @@
   name: light tube
   description: "A light fixture. Draws power and produces light when equipped with a light bulb."
   id: LightTubeFixtureEmpty
-  suffix: Empty
+  suffix: Empty, Carmine
   parent: [ BasePoweredLightFixture, LightTubeFixturePowered ]
   components:
+  - type: PoweredLight #it breaks if you dont specify damage
+    bulb: Tube
+    damage:
+      types:
+        Heat: 2
   - type: Construction
     graph: LightFixture
     node: tubeLight
+
+- type: entity
+  id: LightTubeFixture
+  suffix: Carmine
+  parent: LightTubeFixtureEmpty
+  components:
+  - type: PoweredLight
+    hasLampOnSpawn: LightTube
+    bulb: Tube
+    damage:
+      types:
+        Heat: 2

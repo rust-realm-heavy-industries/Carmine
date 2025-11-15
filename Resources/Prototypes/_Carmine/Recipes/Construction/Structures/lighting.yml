@@ -1,7 +1,7 @@
 #lighting
 - type: construction
   name: light tube fixture
-  id: LightTubeFixturePowered
+  id: LightTubeFixtureEmpty
   graph: LightFixture
   startNode: start
   targetNode: tubeLight
@@ -17,7 +17,7 @@
 
 - type: construction
   name: small light fixture
-  id: SmallLightFixturePowered
+  id: SmallLightFixtureEmpty
   graph: LightFixture
   startNode: start
   targetNode: bulbLight

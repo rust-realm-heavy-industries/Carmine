@@ -12,7 +12,6 @@
     layers:
       - map: [ enum.LightBulbVisualLayers.Base ]
         state: normal
-  - type: LightBulb
   - type: Damageable
     damageContainer: Inorganic
   - type: DamageOnLand
@@ -73,6 +72,7 @@
   parent: BaseLightBulb
   name: light bulb
   id: LightBulb
+  suffix: Carmine
   description: An incandescent light bulb.
   components:
   - type: LightBulb
@@ -83,9 +83,9 @@
     lightSoftness: 1.1
     
 - type: entity
-  suffix: Broken
+  suffix: Broken, Carmine
   parent: LightBulb
-  name: light bulb
+  name: broken light bulb
   id: LightBulbBroken
   description: A light bulb.
   components:
@@ -97,18 +97,19 @@
   parent: BaseLightTube
   name: light tube
   id: LightTube
+  suffix: Carmine
   description: A fluorescent light fixture.
   components:
   - type: LightBulb
-    color: "#FFCEA6" # 4000K color temp
-    lightEnergy: 0.8
-    lightRadius: 10
+    color: "#FFC99D" # 3800K color temp
+    lightEnergy: 0.5
+    lightRadius: 7
     lightSoftness: 1
     
 - type: entity
-  suffix: Broken
+  suffix: Broken, Carmine
   parent: LightTube
-  name: light tube
+  name: broken light tube
   id: LightTubeBroken
   description: A light fixture.
   components:
