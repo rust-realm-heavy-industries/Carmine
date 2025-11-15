@@ -42,8 +42,6 @@
 
 - type: startingGear
   id: WardenGear
-  subGear:
-  - WardenPlasmamanGear
   equipment:
     head: ClothingHeadHatWarden
     jumpsuit: ClothingUniformJumpsuitWarden
@@ -57,11 +55,3 @@
   innerClothingSkirt: ClothingUniformJumpskirtWarden
   satchel: ClothingBackpackSatchelSecurity
   duffelbag: ClothingBackpackDuffelSecurity
-
-- type: startingGear
-  id: WardenPlasmamanGear
-  parent: BasePlasmamanSecurityGear
-  equipment:
-    jumpsuit: ClothingUniformEnvirosuitWarden
-    head: ClothingHeadEnvirohelmWarden
-    gloves: ClothingHandsGlovesEnviroglovesBlack

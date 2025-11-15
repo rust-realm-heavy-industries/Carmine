@@ -272,10 +272,6 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutAirTank
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-        - Plasmaman
 
 - type: loadout
   id: LoadoutItemsEmergencyCrowbar
@@ -362,11 +358,6 @@
   cost: 0
   items:
     - LunchboxGenericFilledRandom
-  requirements:
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-        - Plasmaman
 
 # Survival boxes
 - type: loadout

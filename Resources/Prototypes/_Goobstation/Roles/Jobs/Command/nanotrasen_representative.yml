@@ -49,19 +49,9 @@
 
 - type: startingGear
   id: NanotrasenRepresentativeGear
-  subGear:
-  - NanotrasenRepresentativePlasmamanGear
   equipment:
     shoes: ClothingShoesColorBlack
     id: CentcomPDA
     jumpsuit: ClothingUniformJumpsuitNanotrasenRepresentative
     ears: ClothingHeadsetAltCentCom
     pocket1: UniqueNanorepLockerTeleporter
-
-- type: startingGear
-  id: NanotrasenRepresentativePlasmamanGear
-  parent: BasePlasmamanGear
-  equipment:
-    jumpsuit: ClothingUniformEnvirosuitNanotrasenRepresentative
-    head: ClothingHeadEnvirohelmNanotrasenRepresentative
-    gloves: ClothingHandsGlovesEnviroglovesBlack

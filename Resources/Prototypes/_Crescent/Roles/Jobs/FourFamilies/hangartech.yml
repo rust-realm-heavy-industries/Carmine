@@ -13,10 +13,6 @@
   requirements:
     - !type:FactionRequirement
       factionID: "TAP"
-    - !type:CharacterSpeciesRequirement
-      species:
-        - Moth
-        - Arachnid
     - !type:CharacterTraitRequirement
       inverted: true
       traits:

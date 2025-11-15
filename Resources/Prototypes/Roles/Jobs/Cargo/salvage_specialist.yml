@@ -20,8 +20,6 @@
 
 - type: startingGear
   id: SalvageSpecialistGear
-  subGear:
-  - SalvageSpecialistPlasmamanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitSalvageSpecialist
     back: ClothingBackpackSalvageFilled
@@ -31,13 +29,3 @@
     pocket1: MiningVoucher
   satchel: ClothingBackpackSatchelSalvageFilled
   duffelbag: ClothingBackpackDuffelSalvageFilled
-
-- type: startingGear
-  id: SalvageSpecialistPlasmamanGear
-  parent: BasePlasmamanGear
-  equipment:
-    jumpsuit: ClothingUniformEnvirosuitSalvage
-    head: ClothingHeadEnvirohelmSalvage
-    gloves: ClothingHandsGlovesEnviroglovesSalvage
-    mask: ClothingMaskGasExplorer
-    pocket1: MiningVoucher

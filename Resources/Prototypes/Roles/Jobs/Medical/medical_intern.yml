@@ -24,8 +24,6 @@
 
 - type: startingGear
   id: MedicalInternGear
-  subGear:
-  - DoctorPlasmamanGear
   equipment:
     jumpsuit: UniformScrubsColorBlue # DeltaV - Intern starts with blue scrubs
     back: ClothingBackpackMedicalFilled

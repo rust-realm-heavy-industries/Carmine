@@ -63,8 +63,6 @@
 
 - type: startingGear
   id: HoPGear
-  subGear:
-  - HoPPlasmamanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitHoP
     back: ClothingBackpackHOPFilled
@@ -74,11 +72,3 @@
   innerClothingSkirt: ClothingUniformJumpskirtHoP
   satchel: ClothingBackpackSatchelHOPFilled
   duffelbag: ClothingBackpackDuffelHOPFilled
-
-- type: startingGear
-  id: HoPPlasmamanGear
-  parent: BasePlasmamanGear
-  equipment:
-    jumpsuit: ClothingUniformEnvirosuitHoP
-    head: ClothingHeadEnvirohelmHoP
-    gloves: ClothingHandsGlovesEnviroglovesHoP

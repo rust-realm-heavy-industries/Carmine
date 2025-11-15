@@ -13,10 +13,6 @@
   requirements:
     - !type:FactionRequirement
       factionID: "ATH"
-    - !type:CharacterSpeciesRequirement
-      species:
-        - Human
-        - Oni
   special:
   - !type:AddComponentSpecial
     components:

@@ -4,11 +4,6 @@
   description: job-description-kanoneer
   playTimeTracker: JobKanoneerATH
   requirements:
-    - !type:CharacterSpeciesRequirement
-      species:
-        - Human
-        - Reptilian
-        - Oni
     - !type:FactionRequirement
       factionID: "ATH"
   weight: 82

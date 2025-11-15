@@ -32,8 +32,6 @@
 
 - type: startingGear
   id: CaptainGear
-  subGear:
-  - CaptainPlasmamanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitCaptain
     back: ClothingBackpackCaptainFilled
@@ -43,11 +41,3 @@
   innerClothingSkirt: ClothingUniformJumpskirtCaptain
   satchel: ClothingBackpackSatchelCaptainFilled
   duffelbag: ClothingBackpackDuffelCaptainFilled
-
-- type: startingGear
-  id: CaptainPlasmamanGear
-  parent: BasePlasmamanGear
-  equipment:
-    jumpsuit: ClothingUniformEnvirosuitCaptain
-    head: ClothingHeadEnvirohelmCaptain
-    gloves: ClothingHandsGlovesCaptain

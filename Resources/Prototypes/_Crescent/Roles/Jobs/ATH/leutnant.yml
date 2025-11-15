@@ -14,11 +14,6 @@
     - !type:CharacterWhitelistRequirement
     - !type:FactionRequirement
       factionID: "ATH"
-    - !type:CharacterSpeciesRequirement
-      species:
-        - Human
-        - Reptilian
-        - Oni
   special:
   - !type:AddComponentSpecial
     components:

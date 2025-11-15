@@ -23,11 +23,6 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutGloves
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-        - Plasmaman
-
 
 - type: loadout
   id: LoadoutHandsClothWrap

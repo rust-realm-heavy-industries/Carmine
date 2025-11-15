@@ -11,17 +11,6 @@
             - PsychoHistorian
             - Biomancer
             - Pyromancer
-    - !type:CharacterLogicOrRequirement
-      requirements:
-        - !type:CharacterSpeciesRequirement
-          inverted: true
-          species:
-            - IPC
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-        - Oni
-        - Voidborn
   functions:
     - !type:TraitReplaceComponent
       components:
@@ -41,12 +30,6 @@
             - PsychoHistorian
             - Biomancer
             - Pyromancer
-    - !type:CharacterLogicOrRequirement
-      requirements:
-        - !type:CharacterSpeciesRequirement
-          inverted: true
-          species:
-            - IPC
   functions:
     - !type:TraitAddPsionics
       psionicPowers:

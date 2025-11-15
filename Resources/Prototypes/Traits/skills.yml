@@ -54,11 +54,6 @@
       traits:
         - LightweightDrunk
         - LiquorLifeline
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-        - Dwarf
-        - IPC
   functions:
     - !type:TraitReplaceComponent
       components:
@@ -80,11 +75,6 @@
       traits:
         - LightweightDrunk
         - HeavyweightDrunk
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-        - Dwarf
-        - IPC
   functions:
     - !type:TraitReplaceComponent
       components:
@@ -104,11 +94,6 @@
           stealth: Subtle
           stripTimeReduction: 0
           stripTimeMultiplier: 0.667
-  requirements:
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-        - Felinid
 
 - type: trait
   id: Voracious
@@ -120,12 +105,6 @@
         - type: ConsumeDelayModifier
           foodDelayMultiplier: 0.5
           drinkDelayMultiplier: 0.5
-  requirements:
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-        - Vulpkanin
-        - IPC
 
 - type: trait
   id: ParkourTraining
@@ -139,10 +118,6 @@
         - SnailPaced
         - BadKnees
         - WheelchairBound
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-        - Diona
   functions:
     - !type:TraitReplaceComponent
       components:
@@ -164,22 +139,12 @@
         - type: FootstepVolumeModifier
           sprintVolumeModifier: -10
           walkVolumeModifier: -10
-  requirements:
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-        - Felinid
-        - Tajaran
 
 - type: trait
   id: Singer
   category: Auditory
   points: -1
   requirements:
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-        - Harpy
     - !type:CharacterTraitRequirement
       inverted: true
       traits:

@@ -37,8 +37,6 @@
 
 - type: startingGear
   id: ChiefEngineerGear
-  subGear:
-  - ChiefEngineerPlasmamanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitChiefEngineer
     back: ClothingBackpackChiefEngineerFilled
@@ -48,11 +46,3 @@
   innerClothingSkirt: ClothingUniformJumpskirtChiefEngineer
   satchel: ClothingBackpackSatchelChiefEngineerFilled
   duffelbag: ClothingBackpackDuffelChiefEngineerFilled
-
-- type: startingGear
-  id: ChiefEngineerPlasmamanGear
-  parent: BasePlasmamanGear
-  equipment:
-    jumpsuit: ClothingUniformEnvirosuitChiefEngineer
-    head: ClothingHeadEnvirohelmChiefEngineer
-    gloves: ClothingHandsGlovesEnviroglovesChiefEngineer

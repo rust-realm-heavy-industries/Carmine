@@ -2,7 +2,7 @@
   id: EmissiveEyeRight
   bodyPart: Eyes
   markingCategory: Head
-  speciesRestriction: [Human, SlimePerson, Reptilian, Dwarf, Felinid, Oni, Harpy, Lamia, Plasmaman, Tajaran]
+  speciesRestriction: [Human]
   shaders:
     tattoo_eye_r: unshaded
   coloring:
@@ -18,7 +18,7 @@
   id: EmissiveEyeLeft
   bodyPart: Eyes
   markingCategory: Head
-  speciesRestriction: [Human, SlimePerson, Reptilian, Dwarf, Felinid, Oni, Harpy, Lamia, Plasmama, Tajaran]
+  speciesRestriction: [Human]
   shaders:
     tattoo_eye_l: unshaded
   coloring:

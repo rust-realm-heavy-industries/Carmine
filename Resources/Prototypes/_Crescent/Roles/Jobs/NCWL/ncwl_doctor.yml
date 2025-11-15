@@ -15,10 +15,6 @@
       min: 1000
     - !type:FactionRequirement
       factionID: "NCWL"
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-        - Voidborn
     - !type:CharacterTraitRequirement
       inverted: true
       traits:
