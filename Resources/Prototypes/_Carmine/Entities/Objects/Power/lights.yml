@@ -1,0 +1,117 @@
+- type: entity
+  parent: BaseItem
+  id: BaseLightBulb
+  abstract: true
+  components:
+  - type: MeleeSound
+    soundGroups:
+      Brute:
+        collection: GlassSmash
+  - type: Sprite
+    sprite: Objects/Power/light_bulb.rsi
+    layers:
+      - map: [ enum.LightBulbVisualLayers.Base ]
+        state: normal
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: DamageOnLand
+    damage:
+      types:
+        Blunt: 5
+  - type: DamageOtherOnHit
+    damage:
+      types:
+        Blunt: 5
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors: #excess damage (nuke?). avoid computational cost of spawning entities.
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 5
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: GlassBreak
+          params:
+            volume: -8
+      - !type:DoActsBehavior
+        acts: [ "Breakage" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 10
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: GlassBreak
+          params:
+            volume: -8
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          ShardGlass:
+            min: 1
+            max: 1
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+
+- type: entity
+  parent: BaseLightBulb
+  id: BaseLightTube
+  abstract: true
+  components:
+  - type: Sprite
+    sprite:  Objects/Power/light_tube.rsi
+  - type: LightBulb
+    bulb: Tube
+    
+- type: entity
+  parent: BaseLightBulb
+  name: light bulb
+  id: LightBulb
+  suffix: Carmine
+  description: An incandescent light bulb.
+  components:
+  - type: LightBulb
+    bulb: Bulb
+    color: "#FFB475" # 3100K color temp
+    lightEnergy: 0.5
+    lightRadius: 5
+    lightSoftness: 1.1
+    
+- type: entity
+  suffix: Broken, Carmine
+  parent: LightBulb
+  name: broken light bulb
+  id: LightBulbBroken
+  description: A light bulb.
+  components:
+  - type: LightBulb
+    startingState: Broken
+    bulb: Bulb
+    
+- type: entity
+  parent: BaseLightTube
+  name: light tube
+  id: LightTube
+  suffix: Carmine
+  description: A fluorescent light fixture.
+  components:
+  - type: LightBulb
+    color: "#FFC99D" # 3800K color temp
+    lightEnergy: 0.5
+    lightRadius: 7
+    lightSoftness: 1
+    
+- type: entity
+  suffix: Broken, Carmine
+  parent: LightTube
+  name: broken light tube
+  id: LightTubeBroken
+  description: A light fixture.
+  components:
+  - type: LightBulb
+    startingState: Broken

@@ -1,5 +1,71 @@
-# This file holds all of the temporary migrations to get AdventureRule to actually load.
-# This is bad. Please port these properly or replace them in the map.
+#NEW STUFF
+#REPLACED BY CARMINE LIGHTS
+AlwaysPoweredWallLight: null
+PoweredlightEmpty: null
+Poweredlight: null
+PoweredlightLED: null
+PoweredlightExterior: null
+PoweredlightSodium: null
+SmallLight: null
+PoweredSmallLightEmpty: null
+PoweredLEDSmallLight: null
+PoweredSmallLight: null
+EmergencyLight: null
+PoweredlightCyan: null
+AlwaysPoweredlightCyan: null
+PoweredlightBlue: null
+AlwaysPoweredlightBlue: null
+PoweredlightPink: null
+AlwaysPoweredlightPink: null
+PoweredlightOrange: null
+AlwaysPoweredlightOrange: null
+PoweredlightRed: null
+AlwaysPoweredlightRed: null
+PoweredlightGreen: null
+AlwaysPoweredlightGreen: null
+LightSmallAlwayson: null
+LightSmallEmpty: null
+LightSmall: null
+PoweredLightBlueInterior: null
+AlwaysPoweredLightBlueInterior: null
+PoweredSmallLightMaintenance: null
+AlwaysPoweredSmallLightMaintenance: null
+PoweredLightColoredFrostyBlue: null
+AlwaysPoweredLightColoredFrostyBlue: null
+PoweredLightColoredBlack: null
+AlwaysPoweredLightColoredBlack: null
+PoweredLightPostSmallRed: null
+AlwaysPoweredLightPostSmallRed: null
+PoweredSmallLightMaintenanceRed: null
+AlwaysPoweredSmallLightMaintenanceRed: null
+N14LightSmallAlwayson: null
+N14LightSmallEmpty: null
+N14LightSmall: null
+BlueLightTube: null
+LightBulbMaintenance: null
+ColoredLightTubeRed: null
+ColoredLightTubeFrostyBlue: null
+ColoredLightTubeBlackLight: null
+LightBulbMaintenanceRed: null
+LedLightBulb: null
+LightBulbOld: null
+ServiceLightBulb: null
+LightTubeOld: null
+LedLightTube: null
+ExteriorLightTube: null
+SodiumLightTube: null
+LightTubeCrystalCyan: null
+LightTubeCrystalBlue: null
+LightTubeCrystalPink: null
+LightTubeCrystalOrange: null
+LightTubeCrystalRed: null
+LightTubeCrystalGreen: null
+#REPLACED BY CARMINE LIGHTS
+
+
+
+
+#old hullrot stuff
 SpawnPointKommissar: null
 ThrusterUnwelded: Thruster
 
